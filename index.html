@@ -38,7 +38,7 @@ a{text-decoration:none;color:inherit}
   display:inline-flex;align-items:center;justify-content:center;gap:8px;
   background:var(--teal);color:#fff;border:none;cursor:pointer;
   padding:14px 28px;border-radius:50px;font-size:16px;font-weight:600;
-  font-family:inherit;transition:.25s;white-space:nowrap;
+  font-family:inherit;transition:.25s;white-space:normal;text-align:center;line-height:1.2;
 }
 .btn:hover{background:var(--teal-dark);transform:translateY(-2px);box-shadow:0 10px 24px rgba(20,184,166,.35)}
 .btn-outline{background:transparent;border:2px solid var(--teal);color:var(--teal)}
@@ -131,7 +131,7 @@ select:focus,input:focus{outline:none;border-color:var(--teal);box-shadow:0 0 0 
 .calc-result .price{font-size:42px;font-weight:800;letter-spacing:-1.5px;line-height:1.1}
 .calc-result .price em{font-size:22px;font-style:normal;font-weight:600;opacity:.85}
 .calc-result .note{font-size:13px;opacity:.7;margin-top:14px;line-height:1.5}
-.calc-result .btn{margin-top:22px;width:100%}
+.calc-result .btn{margin-top:22px;width:100%;font-size: 15px;padding: 14px 16px;white-space: normal}
 
 /* ====== SERVICES ====== */
 .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
@@ -307,6 +307,7 @@ footer{background:var(--navy-dark);color:#c3d3e3;padding:0 0 34px}
   .form-wrap{padding:26px 18px}
   .form-wrap h2{font-size:22px}
   .footer-bottom{justify-content:flex-start;gap:8px}
+  .calc-result .btn {font-size: 13px;padding: 12px 10px}
 }
 </style>
 </head>
